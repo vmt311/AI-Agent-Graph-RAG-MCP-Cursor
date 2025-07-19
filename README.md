@@ -8,7 +8,7 @@ cp .env.example .env
 ```
 2. Chạy data_preprocessing.py để làm sạch dữ liệu và thêm vào mongodb
 3. Chạy ingest_graph_db.py để khởi tạo graph database (Neo4j)
-4. Trong cursor, cài đặt mcp-server như sau: (Xem [!link](https://www.youtube.com/watch?v=_Qr0WTgR5EM&t=879s) để biết chi tiết)
+4. Trong cursor, cài đặt mcp-server như sau: (Xem [link](https://www.youtube.com/watch?v=_Qr0WTgR5EM&t=879s) để biết chi tiết)
     ```bash
     {
         "mcpServers": {
